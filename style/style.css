@@ -25,12 +25,11 @@ body {
     border-radius: 100rem;
 }
 
-.ad-mobile {
-    width: 100vw !important;
-    height: auto !important;
-}
-
 @media screen and (max-width: 1250px) {
+    .ad-mobile {
+        width: 90vw !important;
+        height: auto !important;
+    }
     .hero {
         height: 100vh !important;
         position: static !important;
