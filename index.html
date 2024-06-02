@@ -320,17 +320,26 @@
                             style="width: 100%; padding: 1rem; font-family: inherit; font-size: 1rem;  outline: none; border: none; background: transparent;"
                             required maxLength="80" class="form-input" name="lastname" type="lastname">
                     </fieldset>
+                    
                     <fieldset
                         style="width: 65%; padding-left: 0.4rem; margin-top: 2rem; border-radius: 0; border: 0; border-bottom: 2px solid #363636;">
-                        <legend>Email/Phone Number</legend>
+                        <legend>Email</legend>
                         <input
                             style="width: 100%; padding: 1rem; font-family: inherit; font-size: 1rem;  outline: none; border: none; background: transparent;"
-                            required maxLength="80" class="form-input" name="contact">
+                            required maxLength="80" class="form-input" name="email" type="email">
+                    </fieldset>
+
+                    <fieldset
+                        style="width: 65%; padding-left: 0.4rem; margin-top: 2rem; border-radius: 0; border: 0; border-bottom: 2px solid #363636;">
+                        <legend>Phone Number</legend>
+                        <input
+                            style="width: 100%; padding: 1rem; font-family: inherit; font-size: 1rem;  outline: none; border: none; background: transparent;"
+                            required maxLength="80" class="form-input" name="phone">
                     </fieldset>
       
-                    <div style="border-radius: 10px; padding: 10px 2rem; border: 2px solid #363636; font-size: 0.9rem;">
+                    <div style="width: 65%; margin: -2px 0 3rem 0; padding: 10px 2rem; border: 2px solid #363636; font-size: 0.85rem;">
                         <label style="display: flex; align-items: center;">
-                            <input type="checkbox" name="consent" required style="width: 1.5rem; height: 1.5rem; margin-right: 1rem;">
+                            <input type="checkbox" name="sms-consent" required style="scale: 1.2; width: 2rem; height: 2rem; margin-right: 1rem;">
                             By checking this box, I consent to receive SMS messages. I understand that Message and data rates may apply and that I may reply STOP to opt-out of future messaging; reply HELP for additional messaging help. Message frequency may vary depending on the interaction between you and our agents.
                         </label>
                     </div>
@@ -354,7 +363,7 @@
                         Message</button>
                 </form>
             </div>
-      </center>      
+    </center>
     <footer id="footer"></footer>
     <script src="main.js"></script>
 </body>
